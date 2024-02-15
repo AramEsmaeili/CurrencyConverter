@@ -21,10 +21,7 @@ import android.widget.TextView;
     ** Each task must be done by a different team member.
 
 */
-/*
-Rustom: Add **Log** messages at the entry/exit of **onCreate()** and
-**convertCurrency()** methods. Level should be **Info** //Rustom
- */
+
 public class MainActivity extends AppCompatActivity {
     static private final Float CONVERSION_RATE = 0.80F;
     @Override
@@ -56,4 +53,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
